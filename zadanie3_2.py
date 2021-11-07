@@ -3,4 +3,4 @@ lista_zakupow={
     "piekarnia":["bułka","chleb","paczek"]
 }
 for sklep in lista_zakupow:
-    print(f"Idę do {sklep}, kupuję tam astępujące rzeczy {lista_zakupow[sklep]}")
+    print(f"Idę do {sklep.capitalize()}, kupuję tam astępujące rzeczy {[item.capitalize() for item in lista_zakupow[sklep]]}")  
